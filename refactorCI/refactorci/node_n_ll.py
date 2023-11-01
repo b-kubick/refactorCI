@@ -1,4 +1,4 @@
-class Node(object):
+class Node():
     """Doubly linked node which stores an object"""
 
     def __init__(self, element, next_node=None, previous_node=None):
@@ -40,7 +40,7 @@ class Node(object):
 
 
 
-class DoublyLinkedList(object):
+class DoublyLinkedList():
     """Doubly linked node data structure"""
 
     def __init__(self):
