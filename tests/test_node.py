@@ -1,6 +1,8 @@
-from node_n_ll import Node
 import sys
-sys.path.append("..")
+sys.path.append("./refactorci")
+
+from node_n_ll import Node
+
 
 def test_add():
     node = Node(1)
