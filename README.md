@@ -10,3 +10,5 @@
 - poetry add flake8
 - poetry run flake8
 - poetry add pytest-cov
+
+- Add workflow as python-package.yml
