@@ -146,3 +146,9 @@ class DoublyLinkedList():
         node.set_next(None)
         node.set_previous(None)
         self.__size -= 1
+
+def twenties():
+    LL = DoublyLinkedList()
+    for t in range(20, 30):
+        LL.add_last(Node(t))
+    return LL
