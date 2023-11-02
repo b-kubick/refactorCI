@@ -22,7 +22,9 @@ jobs:
         pip poetry install
     - name: Lint with flake8
       run: |
-        poetry run flake8 src/
-    - name: Test with pytest
+        poetry run flake8
+    - name: Test with Coverage
       run: |
-        poetry run pytest --cov=src tests/
+        poetry run coverage run -m pytest
+        petry run coverage report
+        poetry run coverage xml
